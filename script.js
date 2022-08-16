@@ -3,8 +3,6 @@ var rows = document.getElementsByClassName("time-block");
 
 $("#currentDay").text(myMoment);
 
-// compare current time to hour of row, if same, if present, if future, then assign class 
-
 function timeTracker() {
     
     let currentTime = moment().hour();
@@ -27,12 +25,7 @@ function timeTracker() {
         })
     };
 timeTracker();
-// add event listener so when click time block can enter text
-var btn = document.getElementsByClassName("saveBtn col-1 btn");
-btn.addEventListener("click", function() {
-    
-});
 
-// store text in local storage
+var saveButton = document.getElementsByClassName("")
 
-// refresh page saved event persists
+$(#"9am ").val(localStorage.getItem("#9am"))
